@@ -50,8 +50,8 @@ function buttonVoucher() {
     discountElem.innerHTML = 10000;
   } else {
     textVoucherElem.innerHTML = "Gagal menggunakan voucher"
-    textVoucherElem.classList.remove("applied","reject");
-    textVoucherElem.classList.add('');
+    textVoucherElem.classList.remove("applied");
+    textVoucherElem.classList.add('reject');
     discountElem.innerHTML = 0;
   }
 }
